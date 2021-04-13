@@ -21,7 +21,7 @@
 
 module.exports = {
 
-
+   
   /**************************************************************************
   *                                                                         *
   * Tell Sails what database(s) it should use in production.                *
@@ -339,7 +339,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+  port: 80, // 放开80端口
 
 
 
